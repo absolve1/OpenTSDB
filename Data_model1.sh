@@ -1,13 +1,4 @@
 #!/bin/bash
-#getDataWeatherSations.sh
-#Get the data of the weather stations in Valand and Sola
-
-#Type: crontab -e and add this line with the script
-#	0 */1 * * * /home/bobstring/getdata.sh
-#This is going to execute the script every hour
-
-
-
 #Check internet connection
 INTERNET=$(ping -q -w 1 -c 1 `ip r | grep default | cut -d ' ' -f 3` &> /dev/null && echo ok || echo error)
 if [ "$INTERNET" == "error" ]
@@ -40,7 +31,7 @@ csvFile='result.csv'
 
 AUX=""
 #One hour dalay
-#====================================Antorweep: ====================================
+
 #HOUR: the hour of the measure
 HOUR=$(date +"%H")
 #The date of the measure for example: DATE=$(date -d '1 november 2011' +'%Y-%m-%d')
