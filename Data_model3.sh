@@ -61,8 +61,6 @@ do
        echo "Timestamp: "$starttimestamp
        echo "Metric: "$METRIC
        echo "Value: "$VALUE
-       echo "tag1: "VALAND
-	echo "tag2: "${arr[0]}
       fi
 
 
@@ -91,9 +89,6 @@ do
         echo "Metric: "$METRIC
         echo "Value: "$VALUE
         echo "Quality: "$QUALITY
-        echo "tag1: "SOLA
-	echo "tag2: "${arr[0]}
-
       fi
 
 
@@ -122,8 +117,7 @@ do
         echo "Metric: "$METRIC
         echo "Value: "$VALUE
         echo "Quality: "$QUALITY
-        echo "tag1: "ROVIK
-	echo "tag2: "${arr[0]}
+
       fi
 
 
@@ -152,8 +146,6 @@ do
         echo "Metric: "$METRIC
         echo "Value: "$VALUE
         echo "Quality: "$QUALITY
-        echo "tag1: "SAUDA
-	echo "tag2: "${arr[0]}
       fi
 
 
@@ -183,8 +175,6 @@ do
         echo "Metric: "$METRIC
         echo "Value: "$VALUE
         echo "Quality: "$QUALITY
-        echo "tag1: "NESET
-	echo "tag2: "${arr[0]}
       fi
 
 
@@ -213,8 +203,6 @@ do
         echo "Metric: "$METRIC
         echo "Value: "$VALUE
         echo "Quality: "$QUALITY
-        echo "tag1: "ARENDAL
-	echo "tag2: "${arr[0]}
       fi
 
 
